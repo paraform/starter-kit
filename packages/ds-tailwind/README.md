@@ -3,7 +3,7 @@
 • Tailwind
 • Ladle
 
-## Getting STarted
+## Getting Started
 
 `yarn`
 
