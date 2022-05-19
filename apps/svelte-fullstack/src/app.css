@@ -1,0 +1,17 @@
+:root {
+	--heading-color: black;
+	--text-color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 400;
+	color: var(--heading-color);
+}
+
+p {
+	color: var(--text-color);
+}
