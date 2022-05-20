@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #__next {
+    @apply h-full;
+    -webkit-app-region: drag;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .no-drag {
+    -webkit-app-region: no-drag;
+  }
+}

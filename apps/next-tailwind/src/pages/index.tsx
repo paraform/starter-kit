@@ -2,10 +2,13 @@ import { Button } from "ds-tailwind";
 
 export default function Web() {
   return (
-    <div className="m-16">
-      <Button size="large" kind="solid">
-        Click Me
-      </Button>
-    </div>
+    <>
+      <header className="p-5"></header>
+      <div className="p-5 no-drag">
+        <Button size="large" kind="solid">
+          Click Me
+        </Button>
+      </div>
+    </>
   );
 }
